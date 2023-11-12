@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(180, 180, 190);
+}
+
 h1 {
   text-align: center;
 }
@@ -9,4 +13,12 @@ p {
 img {
   display: block;
   margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 50px;
 }
